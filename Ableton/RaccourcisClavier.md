@@ -1,4 +1,6 @@
--Dupliquer : Ctrl + D (duplique pratiquement tout. Clips audio, clips MIDI, pistes, instruments, etc. Je l’utilise le plus souvent dans la fenêtre d’arrangement lors de la copie des boucles à travers la fenêtre du séquenceur, ou lors de l’édition de clip audio ou MIDI sur la grille pour créer des effets de répétition de style mitraillette. Je l’utilise aussi pour dupliquer des pistes entières)
+- Dupliquer : <br>
+  ``Ctrl + D`` <br>
+  (duplique pratiquement tout. Clips audio, clips MIDI, pistes, instruments, etc. Je l’utilise le plus souvent dans la fenêtre d’arrangement lors de la copie des boucles à travers la fenêtre du séquenceur, ou lors de l’édition de clip audio ou MIDI sur la grille pour créer des effets de répétition de style mitraillette. Je l’utilise aussi pour dupliquer des pistes entières)
 
 -Dupliquer et glisser : Ctrl + clic et glisser (En maintenant la touche Option/Ctrl, puis en cliquant sur un élément, vous pouvez facilement faire glisser et dupliquer et placer les clips MIDI et audio ou des notes MID)
 
