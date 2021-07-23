@@ -34,4 +34,50 @@
 ``Ctrl + 4`` <br>
 (permet d’activer ou de désactiver la grille en off) <br>
 
+- Sélection de boucles : <br>
+``Ctrl + L`` <br>
+(Il s’agit d’un gain de temps considérable lors de la composition et de mise en boucle d’une section pour l’édition dans l’écran Arrangement. Il suffit de sélectionner un clip ou une section de temps, puis appuyez sur le raccourci et votre boucle s’aligne automatiquement sur votre sélection et sera activée)
 
+- Fractionner clip : <br>
+``Ctrl + E`` <br>
+(Lors de l’édition dans la fenêtre d’arrangement, vous pouvez sélectionner une partie d’un clip audio ou d’un clip MIDI, appuyez sur ce raccourci clavier, et il va se fractionner votre sélection)
+
+- Suivre : <br>
+``Ctrl + F`` <br>
+(Ce raccourci s’utilise en écran Arrangement, il permet à de suivre » le jeu de la section, ou rester fixe. J’ai l’habitude de l’utiliser en mode suiveur avec un zoom assez proche et je veux voir les clips ou des notes jouées)
+
+- Insérer du silence : <br>
+``Ctrl + I`` <br>
+(Lors de l’édition dans la fenêtre d’arrangement, vous pouvez sélectionner une plage de temps sur une piste et cette fonction inséra du silence immédiatement avant votre sélection, en déplaçant les autres événements vers la droite)
+
+- Modifier Key Map : <br>
+``Ctrl + K`` <br>
+(Lorsque vous activez cette fonction, toutes les fonctions qui sont disponibles pour la cartographie s’allument en orange. Il suffit de cliquer sur une fonction, par exemple un bouton solo de piste, puis appuyez sur une touche de votre clavier. Ensuite, appuyez sur le raccourci à nouveau et vous quittez le mode de Map. La touche active ou désactive le solo sur cette piste)
+
+- Éditer MIDI Map : <br>
+``Ctrl + M`` <br>
+(Lorsque vous activez cette fonction, toutes les fonctions qui sont disponibles pour la cartographie s’allument en violet. Il vous suffit de cliquer sur une fonction, par exemple le volume de la piste, puis déplacer un fader sur votre contrôleur MIDI. Ensuite, appuyez sur le raccourci à nouveau et vous quittez le mode de mappage MIDI et le fader contrôlera désormais le volume de cette piste)
+
+- Renommer : <br>
+``Ctrl + R`` <br>
+Renomme pratiquement n’importe quoi (pistes, clips, appareils, etc.)
+
+- Créer Fades : <br>
+``Ctrl + Alt + F`` <br>
+(Ouvre l’éditeur de fade pour un clip audio. Je l’utilise souvent pour créer des effets crescendo/diminuendo plus longs plutôt que des clips d’automation de volume)
+
+- Créer une nouv elle piste : <br>
+-Créer une nouvelle piste audio : <br>
+``Ctrl + T`` <br>
+-Créer une nouvelle piste MIDI : <br>
+``Ctrl + Maj + T`` <br>
+-Créer une nouvelle piste de retour : <br> 
+``Ctrl + Alt + T`` <br> 
+
+- Exporter : <br>
+`` Ctrl + Maj + R``  <br>
+(Exporte la zone sélectionnée avec l’accolade de la boucle)
+
+- Déplier/replier toutes les pistes : <br>
+`` Alt + clic sur le bouton déplier/replier d’une piste``  <br>
+(Dans la fenêtre arrangement, il déplie ou replie toutes les pistes dans l’ensemble, plutôt qu’une seule)
