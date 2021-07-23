@@ -1,3 +1,5 @@
+# Raccourcis Clavier
+
 - Dupliquer : <br>
   ``Ctrl + D`` <br>
   (duplique pratiquement tout. Clips audio, clips MIDI, pistes, instruments, etc. Je l’utilise le plus souvent dans la fenêtre d’arrangement lors de la copie des boucles à travers la fenêtre du séquenceur, ou lors de l’édition de clip audio ou MIDI sur la grille pour créer des effets de répétition de style mitraillette. Je l’utilise aussi pour dupliquer des pistes entières)
