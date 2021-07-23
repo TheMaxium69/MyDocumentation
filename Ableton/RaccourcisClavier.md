@@ -4,27 +4,27 @@
   ``Ctrl + D`` <br>
   (duplique pratiquement tout. Clips audio, clips MIDI, pistes, instruments, etc. Je l’utilise le plus souvent dans la fenêtre d’arrangement lors de la copie des boucles à travers la fenêtre du séquenceur, ou lors de l’édition de clip audio ou MIDI sur la grille pour créer des effets de répétition de style mitraillette. Je l’utilise aussi pour dupliquer des pistes entières)
 
--Dupliquer et glisser : <br>
+- Dupliquer et glisser : <br>
 ``Ctrl + clic et glisser`` <br>
 (En maintenant la touche Option/Ctrl, puis en cliquant sur un élément, vous pouvez facilement faire glisser et dupliquer et placer les clips MIDI et audio ou des notes MID)
 
--Basculer de la vue Effet/vue Clip : <br>
+- Basculer de la vue Effet/vue Clip : <br>
 ``Maj + TAB`` <br>
 (Cette fonction bascule rapidement entre la vue du clip et la vue des effets de la piste sans avoir à cliquer. J’ai souvent envie de modifier les paramètres du périphérique sur une piste, puis revenir travailler sur la modification du contenu du clip)
 
--Basculer entre l’outil pointeur & l’outil crayon Outil : <br>
+- Basculer entre l’outil pointeur & l’outil crayon Outil : <br>
 ``Ctrl + B`` <br>
 (Bascule sur mode de dessin. L’outil de dessin est utilisé en session. Il permet de modifier les enveloppes et MIDI, ou en écran Arrangement pour modifier l’automatisation)
 
--Groupe : <br>
+- Groupe : <br>
 ``Ctrl + G`` <br>
 (Cette commande groupe les choses ensemble de différentes manières, en fonction de ce que vous avez sélectionné. Si vous avez des pistes MIDI ou audio sélectionnées, il va les mettre sur une piste de groupe)
 
--Insérer un clip MIDI : <br>
+- Insérer un clip MIDI : <br>
 ``Ctrl + Maj + M`` <br>
 (Dans la vue Session, il insère un clip MIDI. En vue Arrangement, vous devez sélectionner une section de temps avec votre souris et il va insérer un clip MIDI de la même longueur que votre sélection)
 
--Contrôle le réglage de la grille : <br>
+- Contrôle le réglage de la grille : <br>
 ``Ctrl + 1`` <br>
 (rétrécit le réglage de grille) <br>
 ``Ctrl + 2`` <br>
