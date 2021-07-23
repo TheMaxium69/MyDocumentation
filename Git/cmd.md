@@ -15,7 +15,7 @@ $ git clone <lien du repo>
 Ajoutez des ficher a ton commit
 -
 ```powershell
-$ git add <lien du ficher dans ton pc || * pour tout les ficher>
+$ git add <lien du ficher dans ton pc ou * pour tout les ficher>
 ```
 
 Commit
@@ -35,6 +35,8 @@ Mettre a jour les ficher du depo vers votre machine
 ```powershell
 $ git pull
 ```
+
+
 
 
 
