@@ -2,7 +2,7 @@
 
 Créer un ``Projet``
 -
-```powershell
+```shell
 $ symfony new <NAME> --full
 ```
 
