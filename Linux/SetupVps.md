@@ -13,7 +13,7 @@
 
 - Ssh 
 
-[Wiki ssh](https://fr.wikipedia.org/wiki/Secure_Shell)
+[![Wikis SSH](https://img.shields.io/badge/Wikis-SSH-3960ef)](https://fr.wikipedia.org/wiki/Secure_Shell)
 
 Ouvré un terminal
 
@@ -42,10 +42,13 @@ $ apt full-upgrade
 
 ### - Installer Screen 
 
-[Docs de screen](https://doc.ubuntu-fr.org/screen)
+[![Docs de screen](https://img.shields.io/badge/Docs-Screen-3960ef)](https://doc.ubuntu-fr.org/screen/)
+
 
 il nous permet de créer des sessions et de gardez notre symfony allumé même quand on ce déconnectera du ssh
 
 ```powershell
 $ apt install screen
 ```
+
+### - 
