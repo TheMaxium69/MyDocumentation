@@ -114,3 +114,17 @@ il vas faloir déplacer le ficher de config de **phpMyAdmin** dans un dossier **
 ```powershell
 $ sudo mv /etc/phpmyadmin/apache.conf /etc/apache2/conf-enabled/apache.conf
 ```
+
+et on oublie pas de relancer **apache2** et votre moteur sql pour qu'il comprenne les changement
+
+MySQL
+```powershell
+$ sudo service mysql restart
+$ sudo service apache2 restart
+```
+ou MariaDB
+```powershell
+$ sudo service mariadb restart
+$ sudo service apache2 restart
+```
+
