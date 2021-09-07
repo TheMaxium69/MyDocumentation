@@ -101,6 +101,8 @@ $ sudo apt-get install mysql-server
 
 ### - Installer PhpMyAdmin
 
+[![Docs de apache2](https://img.shields.io/badge/Docs-PhpMyAdmin-3960ef)](https://doc.ubuntu-fr.org/phpmyadmin/)
+
 *PhpMyAdmin* est un panel pour gerez votre moteur sql, au lieu de le faire par ligne Sql
 
 ```powershell
