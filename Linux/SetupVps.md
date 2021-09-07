@@ -61,7 +61,7 @@ dossier : ``/var/www/html/``
 
 *ne toucher pas ces dossier
 
-mais on a besoin de apache pour lancer **phpmyadmin**, il en a besoin pour etre accesible avec un navigateur
+mais on a aussi besoin de apache pour lancer **phpmyadmin**, il en a besoin pour etre accesible avec un navigateur
 
 ```powershell
 $ sudo apt-get install apache2
@@ -130,3 +130,68 @@ $ sudo service mariadb restart
 $ sudo service apache2 restart
 ```
 
+## Après le front et db
+
+### - Tester le front
+
+pour savoir si tout marche bien essayer d'allez sur l'url de votre site web
+
+HostName = Votre Ip
+
+``http://``HOSTNAME``/``
+
+*https ne marchera pas verifer bien et faire attentions certaines extentions ou navigateur (brave par exemple) mette un S sans vous prevenir
+
+si une page de configurations apache ce lance c'est que tout est configuré
+
+### - Tester la db
+
+On vas devoir configuré un utilisateur SQL
+
+on ce connecte au terminal SQL
+
+MySQL
+```powershell
+sudo mysql
+```
+ou MariaDB
+```powershell
+sudo mariadb
+```
+
+* la suite est identique entre MariaDB ou MySQL
+
+Nous venons de nous connecter a l'acces route des command sql (ici on pourrais créer nos table et tout mais nous on vas utuliser **PhpMyAdmin**) 
+mais avant il nous faut nous créer un utilisateur qui aura les permision de tout faire pour ce conneter a **PhpMyAdmin**
+
+```sql
+$ CREATE USER '<UserName>'@'localhost' IDENTIFIED BY '<PassWord>';
+```
+
+je vous laisse appeler et mettre le password que vous voulez 
+
+*ne changez **SURTOUT PAS** localhost
+
+puis on vas lui donné tout les permission
+
+```sql
+$ GRANT ALL PRIVILEGES ON *.* TO '<UserName>'@'localhost' WITH GRANT OPTION;
+```
+
+pour quittez le moteur sql il vous suffit de faire ça
+
+```sql
+$ exit
+```
+
+puis rendez vous sur 
+
+``http://``HOSTNAME``/phpmyadmin``
+
+je vous laisse vous connecter avec l'utilisateur qu'on viens de créer 
+
+grace a ce qu'on viens de faire vous avez un compte qui a tout les permission
+
+[![Docs](https://img.shields.io/badge/Docs-En%20Cas%20De%20Probleme-3960ef)](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-debian-9)
+
+## Le BackEnd
