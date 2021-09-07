@@ -42,6 +42,10 @@ $ sudo apt full-upgrade
 
 ### - Installer Screen 
 
+**PS : J'ai fait une documentations pour expliqué ce que vous avez besoin dans screen
+
+[![Docs de screen](https://img.shields.io/badge/MyDocs-Screen-FF0000)](https://github.com/TheMaxium69/MyDocumentation/blob/main/Linux/Screen.md)
+
 [![Docs de screen](https://img.shields.io/badge/Docs-Screen-3960ef)](https://doc.ubuntu-fr.org/screen/)
 
 
