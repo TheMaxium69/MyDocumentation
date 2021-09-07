@@ -83,3 +83,34 @@ hesité pas a regarder votre version de php avec cette commende
 $ php -v
 ```
 
+### - Installer un monteur SQL
+
+Sois MariaDB
+
+```powershell
+$ sudo apt install mariadb-server
+```
+
+Sois MySQL
+
+```powershell
+$ sudo apt-get install mysql-server
+```
+
+***Aucune différence** entre les 2 au niveau de l'installations de le configuration de votre serveur
+
+### - Installer PhpMyAdmin
+
+*PhpMyAdmin* est un panel pour gerez votre moteur sql, au lieu de le faire par ligne Sql
+
+```powershell
+$ sudo apt-get install phpmyadmin
+```
+
+après cette installation on vas configurez **apache2** pour qu'il lance **PhpMyAdmin**
+
+il vas faloir déplacer le ficher de config de **phpMyAdmin** dans un dossier **apache2**
+
+```powershell
+$ sudo mv /etc/phpmyadmin/apache.conf /etc/apache2/conf-enabled/apache.conf
+```
