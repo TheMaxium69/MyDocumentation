@@ -25,6 +25,7 @@ x : permet de rejoindre une session
 ### Raccourcie
 
 - Pour quittez un screen sans le éteindre
+
 ``CTRL + A`` puis ``D``
 
 - Pour quittez le screen et le supprimer en même temps.
